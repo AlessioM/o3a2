@@ -92,7 +92,7 @@ def o3a2(base_dir=None):
     """execute all steps and their dependencies
     if base_dir is None all run commands will be executed from the directory this file is in
     """
-    
+
     if base_dir is None:
         run.cwd = os.path.relpath(os.path.dirname(__file__))
     else:
